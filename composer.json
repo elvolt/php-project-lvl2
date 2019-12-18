@@ -1,0 +1,24 @@
+{
+    "name": "elvolt/differ",
+    "bin": ["bin/gendiff"],
+    "description": "hexlet project lvl2",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elvolt",
+            "email": "sidelevCS@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "docopt/docopt": "^1.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
+}
