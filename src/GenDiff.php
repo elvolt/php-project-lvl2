@@ -2,12 +2,12 @@
 
 namespace Differ\GenDiff;
 
-function getAbsolutePath(string $file): string
+function getAbsolutePath(string $filePath): string
 {
     if (file_exists(getcwd() . "/{file}")) {
-        return getcwd() . "/{file}";
+        return getcwd() . "/{$filePath}";
     } else {
-        return $file;
+        return $filePath;
     }
 }
 
