@@ -7,6 +7,10 @@
     <img src="https://api.codeclimate.com/v1/badges/92282e530f3752b97513/maintainability" />
 </a>
 
+<a href="https://codeclimate.com/github/elvolt/php-project-lvl2/test_coverage">
+    <img src="https://api.codeclimate.com/v1/badges/92282e530f3752b97513/test_coverage" />
+</a>
+
 Проект выполнен в рамках обучения по 
 <a href="https://ru.hexlet.io/professions/php">профессии "PHP-программист" в школе Хекслет</a>
 
