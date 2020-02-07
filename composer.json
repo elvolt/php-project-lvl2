@@ -20,5 +20,11 @@
     },
     "scripts": {
         "phpcs": "phpcs"
+    },
+    "autoload": {
+        "files": [
+            "src/Cli.php",
+            "src/GenDiff.php"
+        ]
     }
 }
